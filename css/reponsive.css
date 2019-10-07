@@ -1,0 +1,631 @@
+/* @media (min-width: 2000px) {
+.container {
+width: 100%;
+padding: 0px 200px;
+}
+} */
+
+
+/* Big tablet to 1200px (widths smaller taht the 1140px row) */
+
+@media only screen and (max-width: 1199px) {
+    .top_nav_right {
+        margin-left: 67%;
+    }
+    .coupons_mail_grid_left2 {
+        width: 60%;
+    }
+    .coupons_mail_grid_left2 p {
+        font-size: 0.8em;
+        line-height: 1.5em;
+    }
+    .sign-gd h4,
+    .sign-gd-two h4 {
+        letter-spacing: 1px;
+    }
+    .w3ls_schedule_bottom_right_grid {
+        margin: 1.9em 0 20px;
+    }
+    .item-info-product h4 a {
+        font-size: 0.8em;
+    }
+}
+
+
+/* Small tablet to big tablet: from 768px to 1023px */
+
+
+/* Small phones to small tablets: from 600px to 767px */
+
+@media only screen and (max-width: 991px) {
+    /* index.html */
+    .hadder-top-aria ul li {
+        padding: 0px 10px;
+        letter-spacing: 0;
+    }
+    .agileits-social.top_content {
+        float: left;
+        margin-top: -5px;
+    }
+    .top_nav_right {
+        margin-left: 12%;
+        float: left;
+        margin-right: 2px;
+    }
+    .box_1 {
+        float: left !important;
+    }
+    .logo_agile {
+        margin-left: 35px;
+    }
+    .grid {
+        width: 100%;
+        float: left;
+        padding-bottom: 1em;
+    }
+    .forth.grid {
+        margin-top: 0em;
+    }
+    .team-grids {
+        width: 50%;
+        margin-bottom: 2em;
+        float: left;
+    }
+    .coupons_mail_grid_left {
+        width: 50%;
+        float: left;
+        padding-bottom: 1em;
+    }
+    .sign-gd,
+    .sign-gd-two {
+        float: left;
+        width: 37%;
+        padding: 0;
+        margin-top: 0em;
+    }
+    .flickr-post {
+        width: 25%;
+    }
+    .product-men {
+        float: left;
+        width: 33%;
+        margin: 25px 0 0;
+    }
+    .offer-gd-img.offer-gd-text {
+        float: left;
+        width: 49%;
+        margin-right: 0px;
+    }
+    .offer-gd-img.offer-gd-text:first-child {
+        margin-right: 15px;
+    }
+    .offer-gd-img.offer-gd-text h4 {
+        top: 40%;
+        left: 15%;
+        font-size: 1.5em;
+    }
+    .coupons,
+    .Trending-agileits,
+    .new_arrivals_agile {
+        padding: 2em 0;
+    }
+    .coupons_mail_grid_left2 {
+        width: 75%;
+    }
+    .footer-right {
+        width: 100%;
+        float: right;
+        padding-top: 2em;
+    }
+    .sign-gd h4,
+    .sign-gd-two h4 {
+        text-align: left;
+    }
+    .footer-left {
+        text-align: center;
+        float: left;
+        width: 100%;
+    }
+    /* about.html */
+    .banner_bottom_agile_info,
+    .banner-bootom-w3-agileits {
+        padding: 2em 0;
+    }
+    .ab_pic_w3ls {
+        float: left;
+        width: 50%;
+    }
+    .ab_pic_w3ls_text_info {
+        float: right;
+        width: 50%;
+    }
+    .ab_pic_w3ls img {
+        height: 330px;
+    }
+    .agile_ab_w3ls_info h5 {
+        font-size: 1.5em;
+        margin-bottom: 1em;
+    }
+    .agile_ab_w3ls_info h5 span {
+        font-weight: 300;
+        font-size: .8em;
+    }
+    h3.wthree_text_info {
+        font-size: 2em;
+    }
+    .w3ls_schedule_bottom_right_grid {
+        padding: 3em 2em;
+        width: 100%;
+        text-align: center;
+    }
+    .w3l_schedule_bottom_right_grid1 {
+        width: 33%;
+        float: left;
+    }
+    /* contact.html */
+    .contact-grid-agile-w3 {
+        width: 32%;
+        padding: 1em;
+        margin-left: 10px;
+        float: left;
+    }
+    .contact-grid-agile-w3 p {
+        font-size: 12px;
+    }
+    .address-grid {
+        width: 50%;
+        float: left;
+    }
+    .contact-form {
+        padding: 2em 2em;
+        width: 50%;
+        float: right;
+    }
+    .address-grid h4,
+    h4.white-w3ls {
+        font-size: 1.8em;
+    }
+    .contact-form input[type="submit"] {
+        width: 100%;
+    }
+    /* women.html */
+    .css-treeview {
+        float: left;
+        width: 49%;
+        margin-right: 6px;
+    }
+    .community-poll {
+        margin-top: 0px;
+        width: 50%;
+        float: left;
+    }
+    .swit {
+        padding: 20px;
+    }
+    .swit label {
+        font-size: 13px;
+    }
+    .swit input[type="submit"] {
+        width: 100%;
+    }
+    .men-wear-right {
+        padding-top: 1em;
+    }
+    .products-right {
+        padding: 1em 0em;
+    }
+    /* single.html */
+    .single-right-left:nth-child(1) {
+        float: left;
+        width: 60%;
+        padding: 0 0 0px;
+        margin-bottom: 50px;
+    }
+    .single-right-left.simpleCart_shelfItem {
+        width: 40%;
+        float: right;
+    }
+    .single-right-left h3 {
+        font-size: 18px;
+    }
+    .description h5 {
+        line-height: 20px;
+    }
+    .colr,
+    .occasion-cart,
+    .color-quality-right select,
+    .description input[type="submit"] {
+        width: 100%;
+    }
+    .radio {
+        padding-left: 42px;
+        margin-left: 15px;
+    }
+    .snipcart-details {
+        width: 100%;
+    }
+    li.share {
+        font-size: .9em;
+        letter-spacing: 1px;
+    }
+    .social-nav li {
+        margin: 0 4px;
+    }
+    .bootstrap-tab-text-grid-left {
+        width: 25%;
+    }
+    .bootstrap-tab-text-grid-right {
+        width: 72%;
+    }
+    .add-review input[type="submit"] {
+        width: 50%;
+        margin: 0 auto;
+    }
+    /* prodect.html */
+    .search-hotel input[type="search"] {
+        width: 40%;
+        margin-bottom: 1em;
+    }
+    .search-hotel,
+    .left-side.border-bottom,
+    .range.border-bottom,
+    .left-side {
+        padding-left: 35%;
+    }
+    .left-side1 {
+        padding-left: 0%;
+        margin-bottom: 1em;
+    }
+    /*  prodect2.html */
+    .pay-forms {
+        width: 100%;
+        text-align: center;
+    }
+    /* checkout.html */
+    .checkout-right h4,
+    .address_form_agile h4 {
+        text-align: center;
+    }
+    button.submit.check_out {
+        width: 48%;
+        float: left;
+    }
+    .checkout-right-basket {
+        margin-top: 0px;
+        width: 50%;
+        float: right;
+    }
+    .checkout-right-basket a {
+        width: 100%;
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .hadder-left ul li {
+        padding: 0px 12px;
+    }
+    .hadder-left ul li i {
+        margin-right: 7px;
+    }
+    .header-top-links>li>a {
+        font-size: 13px;
+    }
+    .logo_agile {
+        margin-left: 0px;
+        width: 100%;
+        text-align: center;
+        padding-bottom: 1em;
+    }
+    .agileits-social.top_content {
+        float: left;
+        margin-top: -5px;
+        width: 50%;
+    }
+    .top_nav_right {
+        margin-left: 0%;
+        float: left;
+        margin-right: 2px;
+    }
+    ul.header-btns {
+        width: 17%;
+        float: left;
+        margin-left: 140px;
+    }
+    #header .nav-toggle {
+        float: left;
+        margin-left: 0px;
+    }
+    .offer-gd-img.offer-gd-text:first-child {
+        margin-bottom: 1em;
+    }
+    .offer-gd-img.offer-gd-text {
+        width: 100%;
+    }
+    .product-men {
+        width: 50%;
+        margin: 25px 0 0;
+    }
+    .offer-probite {
+        min-height: 310px;
+        margin-top: 2em;
+    }
+    .coupons_mail_grid_left2 {
+        width: 65%;
+    }
+    .sign-gd,
+    .sign-gd-two {
+        width: 50%;
+    }
+    .flickr-post {
+        width: 100%;
+    }
+    .flickr-post h4 {
+        text-align: center;
+        padding-top: 1em;
+    }
+    /* about-page */
+    .ab_pic_w3ls {
+        width: 100%;
+    }
+    .ab_pic_w3ls img {
+        height: auto;
+    }
+    .ab_pic_w3ls_text_info {
+        width: 100%;
+    }
+    .offer-gd-img.offer-gd-text h4 {
+        left: 25%;
+        font-size: 2em;
+    }
+    .contact-grid-agile-w3s {
+        padding: 0em 5em;
+    }
+    .contact-grid-agile-w3 {
+        width: 100%;
+        margin-left: 0;
+        margin-bottom: 1em;
+        padding: 3em;
+    }
+    .contact-grid-agile-w3 p {
+        font-size: 14px;
+    }
+    .address-grid,
+    .contact-form {
+        width: 100%;
+    }
+    .address-grid ul {
+        text-align: center;
+        width: 100%;
+    }
+    .mail-agileits-w3layouts {
+        width: 56%;
+        margin: 10px auto;
+    }
+    .address-grid h4,
+    h4.white-w3ls {
+        font-size: 1.8em;
+        text-align: center;
+        padding-bottom: 1em;
+    }
+    /* single-page */
+    .single-right-left:nth-child(1) {
+        width: 50%;
+    }
+    .flexslider .slides img {
+        width: 80%;
+        padding-left: 40px;
+    }
+    .single-right-left.simpleCart_shelfItem {
+        width: 50%;
+    }
+    /* prodatc */
+    .join-agile {
+        text-align: center;
+    }
+    /* prement-page */
+    .vertical_post h5 {
+        padding: 1em;
+    }
+    .checkbox {
+        padding: 0em 2em 2em 2em;
+    }
+    .product-men.product_men1 {
+        width: 33%;
+    }
+    /* women-page */
+    .css-treeview {
+        width: 49%;
+        margin-right: 6px;
+    }
+    .community-poll {
+        width: 49%;
+    }
+    .products-right {
+        text-align: center;
+    }
+    .men-wear-left img {
+        width: 100%;
+    }
+}
+
+
+/* Small phones: from 0 to 480px */
+
+@media only screen and (max-width: 599px) {
+    /* index-page */
+    .agileits-social.top_content {
+        width: 57%;
+    }
+    ul.header-btns {
+        width: 21%;
+        margin-left: 44px;
+    }
+    .product-men {
+        width: 100%;
+    }
+    .offer-probite h6 {
+        font-size: 2em;
+    }
+    .coupons_mail_grid_left1 {
+        width: 60px;
+        height: 60px;
+    }
+    .coupons_mail_grid_left2 {
+        width: 60%;
+    }
+    /* about-page */
+    .ab_pic_w3ls_text_info {
+        padding-top: 1em;
+    }
+    .thumbnail.team-w3agile h4 {
+        font-size: .9em;
+        text-align: left;
+    }
+    .caption p {
+        font-size: 10px;
+    }
+    figure.effect-roxy h3 {
+        padding: 1em 0 .5em;
+    }
+}
+
+
+/*  */
+
+@media only screen and (max-width: 479px) {
+    .agileits-social.top_content {
+        width: 64%;
+    }
+    ul.header-btns {
+        width: 25%;
+        margin-left: 0px;
+    }
+    .banner h1 {
+        font-size: 26px;
+    }
+    .banner h1 span {
+        font-size: 20px;
+    }
+    .offer-gd-img.offer-gd-text h4 {
+        left: 16%;
+    }
+    .coupons_mail_grid_left1 {
+        width: 170px;
+        height: 70px;
+        margin-bottom: 1em;
+    }
+    .coupons_mail_grid_left2 {
+        width: 100%;
+        text-align: center;
+    }
+    .sign-gd h4,
+    .sign-gd-two h4 {
+        text-align: center;
+    }
+    .sign-gd,
+    .sign-gd-two {
+        width: 100%;
+        text-align: center;
+    }
+    .w3-address-grid {
+        padding: 1em 5em;
+        width: 100%;
+    }
+    .w3-address-right {
+        width: 100%;
+        float: none;
+    }
+    .w3-address-right h6 {
+        width: 72%;
+        margin-top: 5px;
+    }
+    /* about-page */
+    .caption p {
+        font-size: 12px;
+        line-height: 0px;
+    }
+    .social-nav li {
+        margin: 0 0px;
+    }
+    .social-nav li:last-child {
+        margin-right: 4px;
+    }
+    figure.effect-roxy h3 {
+        padding: .5em 0 .5em;
+        margin-bottom: -17px;
+    }
+}
+
+@media only screen and (max-width: 425px) {
+    .agileits-social.top_content {
+        width: 100%;
+    }
+    li.share {
+        font-size: 1.5em;
+        width: 100%;
+    }
+    .social-nav {
+        width: 100%;
+        text-align: center;
+    }
+    ul.header-btns {
+        width: 28%;
+        margin-left: 110px;
+    }
+    figure.effect-roxy h3 {
+        padding: 0em 0 .5em;
+        margin-bottom: -15px;
+    }
+    .offer-gd-img.offer-gd-text h4 {
+        left: 10%;
+    }
+    .w3-address-grid {
+        padding: 1em 3em;
+    }
+    .coupons_mail_grid {
+        padding: 0 0em;
+    }
+    .coupons_mail_grid_left1 {
+        width: 150px;
+    }
+}
+
+
+/*  */
+
+@media only screen and (max-width: 374px) {
+    li.share {
+        font-size: 1.5em;
+        width: 100%;
+    }
+    ul.header-btns {
+        width: 33%;
+        margin-left: 90px;
+    }
+    h3.wthree_text_info {
+        font-size: 1.5em;
+    }
+    figure.effect-roxy h3 {
+        margin-bottom: -21px;
+        font-size: 1.5em;
+        margin-top: -9px;
+    }
+    .grid figure p {
+        letter-spacing: 6px;
+        font-size: 1em;
+    }
+    .offer-gd-img.offer-gd-text h4 {
+        left: 8%;
+        font-size: 1.5em;
+    }
+    .offer-probite {
+        min-height: 210px;
+    }
+    .offer-probite h6 {
+        font-size: 1.5em;
+    }
+    .w3-address-right h6 {
+        width: 100%;
+    }
+}
